@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg , #272727, #000 , #272727);
+}
+.container{
+    position: relative;
+    margin: 130px auto;
+    padding: 20px;
+    width: 50%;
+    height: 65%;
+    text-align: center;
+    background-color: rgba(110, 110, 110, 0.4);
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 7fr;
+}
+
+.Shower{
+    position: relative;
+    min-height: 100px;
+}
+.Shower input{
+    width: 100%;
+    height: 80px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid #ffffff4d;
+    background: transparent;
+    color: white;
+}
+.Shower input:focus{
+    border: 1px solid white;
+}
+.Shower span{
+    position: absolute;
+    left: 10px;
+    color: #ffffff3d;
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+}
+.Shower p{
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    color: #ffffff3d;
+}
+.Signs{
+    display: grid;
+    grid-template-areas: 
+    "C C AC AC"
+    "b7 b8 b9 J"
+    "b4 b5 b6 K"
+    "b1 b2 b3 Z"
+    "b0 D M T"
+    ;
+    gap: 5px;
+}
+.Signs button{
+    padding: 20px;
+    background-color: #474747;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #ffffff4d;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Signs button:hover{
+    border: 1px solid #ffffff8d;
+    text-shadow: 0 0 2px #ffffff;
+}
+.Signs button:focus{
+    border: 1px solid #ffffff;
+}
+.Signs .b1{
+    grid-area: b1;
+}
+.Signs .b2{
+    grid-area: b2;
+}
+.Signs .b3{
+    grid-area: b3;
+}
+.Signs .b4{
+    grid-area: b4;
+}
+.Signs .b5{
+    grid-area: b5;
+}
+.Signs .b6{
+    grid-area: b6;
+}
+.Signs .b7{
+    grid-area: b7;
+}
+.Signs .b8{
+    grid-area: b8;
+}
+.Signs .b9{
+    grid-area: b9;
+}
+.Signs .b0{
+    grid-area: b0;
+}
+.Signs .jam{
+    grid-area: J;
+}
+.Signs .kam{
+    grid-area: K;
+}
+.Signs .zrb{
+    grid-area: Z;
+}
+.Signs .tgh{
+    grid-area: T;
+}
+.Signs .dot{
+    grid-area: D;
+}
+.Signs .mos{
+    grid-area: M;
+}
+.Signs .Clr{
+    grid-area: C;
+}
+.Signs .AC{
+    grid-area: AC;
+}
